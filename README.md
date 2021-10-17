@@ -1,10 +1,11 @@
-#MySQL Connector for C++
-***
+MySQL Connector for C++
+---
+
 这是一个简易的基于MySQL标准客户端开发库的简单辅助工具，提供了类似于Java、C#等高级语言的调用方法。
 
-##使用方法
+## 使用方法
 只需引用 "mysql_conn_plus.h" 一个文件即可。
-###INSERT & UPDATE & DELETE
+### INSERT & UPDATE & DELETE
 ```
 #include "mysql_conn_plus.h"
 
@@ -30,7 +31,7 @@ int main(int argc, char **argv)
 }
 ```
 
-###SELECT
+### SELECT
 ```
 #include "mysql_conn_plus.h"
 
