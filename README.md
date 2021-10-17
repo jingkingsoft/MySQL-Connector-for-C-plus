@@ -52,8 +52,8 @@ int main(int argc, char **argv)
             while (mysql_result.read_row()) // 循环读取结果
             {
                 printf("\nStudent:\n");
-                printf("ID: %08u \n", mysql_result["ID"]); // 可以根据字段名称提取
-                printf("Namde: %s \n", mysql_result[1]); // 可以根据序号来提取
+                printf("ID: %08d \n", atoi(mysql_result["ID"])); // 可以根据字段名称提取
+                printf("Namde: %s \n", mysql_result[1]); // 也可以根据序号来提取
                 ...
             }
         }
